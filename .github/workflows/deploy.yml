@@ -2,7 +2,7 @@ name: Docker Compose Up
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     types: [closed]
 
 jobs:
