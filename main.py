@@ -4,6 +4,8 @@ import requests
 
 
 def main():
+    #hogehuga
+    print("test")
     while True:
         r = requests.get("https://api.bitflyer.com/v1/getticker?product_code=BTC_JPY")
         data = r.json()
