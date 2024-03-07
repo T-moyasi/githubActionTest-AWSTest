@@ -5,7 +5,7 @@ import requests
 
 def main():
     while True:
-        r = requests.get("https://api.bitflyer.com/v1/getticker?product_code=ETH_JPY")
+        r = requests.get("https://api.bitflyer.com/v1/getticker?product_code=BTC_JPY")
         data = r.json()
         print(data)
 
